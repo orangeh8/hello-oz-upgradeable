@@ -1,7 +1,7 @@
 // scripts/upgrade_box.js
 const { ethers, upgrades } = require("hardhat");
 
-const PROXY = "0xffC0F11c92F4E2e50b3f72Fd32BB3d034Ac77BDc";
+const PROXY = "0x41db53938a590deB64Ce0105390A7C16757583f0";
 
 async function main() {
     const BoxV2 = await ethers.getContractFactory("BoxV2");
